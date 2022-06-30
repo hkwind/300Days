@@ -1,6 +1,6 @@
-# Game Flow
+# Game Flow - Start Menu
 
-### This is the game flow of the app 300Days. 
+### This is the game flow of start menu of the app 300Days. 
 
 #### Start Menu
 1. User open the app -> Shows Front page 
