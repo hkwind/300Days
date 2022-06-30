@@ -4,11 +4,24 @@
 
 #### Back Logic
 
-Each hero / enemy have their own Race (Human, Elf, Orc, Dwarf, etc), Class (Warrior, Archer, Spellcaster, Bard, Rogue), Attack Value, Defense Value, Speed Value(0.5-2), and Current Health.
+Each hero / enemy have their own Race (Human, Elf, Orc, Dwarf, etc), Class (Warrior, Archer, Spellcaster, Bard, Rogue), Attack Value, Defense Value, Dodge Value, Speed Value(0.5-2), and Current Health.
 
-Each battle, the above stats will be turn into numbers. Health is their base value, Attack - Opponent defense is the damage (at least 1), while the damage will be affected by race, class and traits. Speed value affects damage dealt speed.
+Each battle, the above stats will be turn into numbers. Health is their base value, Attack - Opponent defense is the damage (at least 1), while the damage will be affected by race, class and traits. Speed value affects damage dealt speed. 
+
+Traits can be related to race and class 
+(e.g. Elf hunter: Learnt about the weakness of elf: Attack + 20%) 
+(e.g. Tough armour (only can be earned by warrior): Physical Damage - 10%)
 
 Formula:
+time = 0
+while (a_health > 0 and b_health > 0):
+  time += 0.1
+  
+  if time%a_speed == 0:
+    b_health -= a_damage
+  if time%b_speed == 0:
+    a_health -= b_damage
+  
 
 
 
