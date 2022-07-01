@@ -16,7 +16,7 @@ Traits example:
 (e.g. Acid resistance: V.S. acid damage defense value + 15%)
 
 
-```
+```js
 def DamageCalculation():
     
   MechaA_damage = MechaA_Attack-MechaB_Defense
