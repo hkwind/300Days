@@ -4,33 +4,50 @@
 
 #### Back Logic
 
-Each hero / enemy have their own Race (Human, Elf, Orc, Dwarf, etc), Class (Warrior, Archer, Spellcaster, Bard, Rogue), Attack Value, Defense Value, Dodge Value, Speed Value(0.5-2), and Current Health.
+Each hero / enemy are a mecha. According to their equipment / settings, they will have different Attack Value, Defense Value, Dodge Value, Speed Value(0.5-2), and Health value.
 
-Each battle, the above stats will be turn into numbers. Health is their base value, Attack - Opponent defense is the damage (at least 1), while the damage will be affected by race, class and traits. Speed value affects damage dealt speed. 
+Each battle, the above stats will be turn into numbers. Health is their base value, Attack - Opponent defense is the damage (at least 1), while the damage will be affected by equipments and traits. Speed value affects damage dealt speed. 
 
-Traits can be related to race and class 
-(e.g. Elf hunter: Learnt about the weakness of elf: Attack + 20%) 
-(e.g. Tough armour (only can be earned by warrior): Physical Damage - 10%)
 
-Formula:
-time = 0
-while (a_health > 0 and b_health > 0):
-  time += 0.1
+Equipments example:
+(e.g. Extra Tough armour: Defense value + 200)
+
+Traits example:
+(e.g. Acid resistance: V.S. acid damage defense value + 15%)
+
+
+
+def DamageCalculation():
+    
+  MechaA_damage = MechaA_Attack-MechaB_Defense
+  MechaB_damage = MechaB_Attack-MechaA_Defense
   
-  if time%a_speed == 0:
-    b_health -= a_damage
-  if time%b_speed == 0:
-    a_health -= b_damage
+  while (MechaA_health > 0 and MechaB_health > 0):
+    time += 1
+    if (time mod MechaA_speed == 0):
+      dodge = Math.random()
+      critical = Math.random()
+      
   
 
 
 
 #### Before Normal Battle
 
-The battle menu should split in half:
+The before battle menu should split in 3 part: (top left, top right, bottom)
 
   - Left Half: Players hero show Attack Value, Defense Value, Current Health, Traits (3 Most), player swipes to change hero
   - Right Half: Enemy(s) show Attack Value, Defense Value, Current Health, Traits (3 Most)
   - Somewhere have a battle button and an escape button
+
+
+#### Battle
+
+The battle menu should split in 3 part: (top left, top right, bottom)
+  - Left Half: Players hero show Attack Value, Defense Value, Current Health (show bigger), Traits (3 Most), player swipes to change hero
+  - Right Half: Enemy(s) show Attack Value, Defense Value, Current Health (show bigger), Traits (3 Most)
+  - In bottom show 3 button: Hard defence, balance, hard attack
+  - A wiindow should show lines about how the fighting goes:
+    e.g. Mecha A uses "Machine arm super punch". It hits mecha B on its head. Critical damage! Mecha B -15 health.
 
 
