@@ -16,7 +16,7 @@ Traits example:
 (e.g. Acid resistance: V.S. acid damage defense value + 15%)
 
 
-
+'''
 def DamageCalculation():
     
   MechaA_damage = MechaA_Attack-MechaB_Defense
@@ -27,7 +27,8 @@ def DamageCalculation():
     if (time mod MechaA_speed == 0):
       dodge = Math.random()
       critical = Math.random()
-      
+ 
+'''
   
 
 
