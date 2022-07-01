@@ -48,7 +48,8 @@ The battle menu should split in 3 part: (top left, top right, bottom)
   - Left Half: Players hero show Attack Value, Defense Value, Current Health (show bigger), Traits (3 Most), player swipes to change hero
   - Right Half: Enemy(s) show Attack Value, Defense Value, Current Health (show bigger), Traits (3 Most)
   - In bottom show 3 button: Hard defence, balance, hard attack
-  - A wiindow should show lines about how the fighting goes:
-    e.g. Mecha A uses "Machine arm super punch". It hits mecha B on its head. Critical damage! Mecha B -15 health.
+  - need a speed up function
+  - A window should show lines about how the fighting goes:
+    `e.g. Mecha A uses "Machine arm super punch". It hits mecha B on its head. Critical damage! Mecha B -15 health.`
 
 
