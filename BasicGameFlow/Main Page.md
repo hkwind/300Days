@@ -12,7 +12,9 @@
 
 2. After user clicked Proceed button -> Enter main page
   
-  - Option: **Date**, **Show Mecha Detail View**, **Show Map View**(3.), **Show Boss Information View**
+  - Date
+  - Map (3.)
+  - Option: **Show Mecha Detail View**, **Show Boss Information View**
 
 3. In Map View, user can select different places to spend their day in. Different places have different kind of events.
 
