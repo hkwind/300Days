@@ -23,6 +23,15 @@
   - Old Street (舊街)
   - Hot Spring Motel (溫泉旅館)
   - School (學校)
-  - 
+  - Gym (健身房)
+  - Ruin (廢墟)
+  - Hospital (醫院)
+
+4. After selecting the place, the place review page will be shown. 
+  - Introduction of the place
+  - Percentage of kinds of event 
+  - Option: **Proceed**, **Back**
+
+5. After clicking Proceed button, player will enter Event page.
 
 
