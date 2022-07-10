@@ -53,3 +53,14 @@ The battle menu should split in 3 part: (top left, top right, bottom)
     `e.g. Mecha A uses "Machine arm super punch". It hits mecha B on its head. Critical damage! Mecha B -15 health.`
 
 
+
+#### Battle Sequence 
+Each mecha basic 3 action:
+Attack: Use basic attack
+Defense: Defend opponent attack
+Boost: Gain a strong attack (glowing)
+
+Glowing action: Will disappear after this round
+Grey action: The action's prerequisites is/are not fulfill.
+
+
