@@ -9,8 +9,8 @@
 
 2.1 User clicks Start -> Shows Game mode selection menu 
 
-  - Option: **Adventure** (3.), **Campaign**,  **Daily Run**, **Back**
-  - The first should be done is **Adventure**. The remaining can be rolled out in later patch.
+  - Option: **Tutorial**, **Adventure** (3.), **Campaign**,  **Daily Run**, **Back**
+  - The first should be done are **Tutorial** & **Adventure**. The remaining can be rolled out in later patch.
 
 2.2 User clicks History
   
