@@ -6,29 +6,26 @@
 
 (Ranking to show fighting power, hv a ranking page)w
 
-### This is the game flow of main page of the app 45Days. 
+### This is the game flow of front page of the app 45Days. 
 
 #### Main Page
 
-0. User click Proceed button -> Enter Game (In Start menu game flow)
+0. User click Adventurn/Campaign -> Proceed button -> Enter Game (In Start menu game flow)
 
 1. User enter the introduction page -> Shows a screen of background story 
-  (First play: tutorial?) -> Tutorial section
   - Option: **Proceed** -> Main flow section
 
-2. After user clicked Proceed button -> Enter main page
-  
-  - Self Garage Pic
+2. After user clicked Proceed button -> Enter Front page
+  (
+  - Self Garage Pic, which also feature the mecha player own (On the left)
   - Date (Day 1 Day 2)
   - Money amount
   - Right Button Screen
     - **Show Mecha Detail View**
-      - 
       - **Repair Mecha**
       - **Equip item**
     - 
 
-  - Side Mission
 
 
   - Option: , **Show Boss Information View**, **Map View**
