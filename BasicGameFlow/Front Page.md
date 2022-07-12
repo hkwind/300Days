@@ -1,11 +1,5 @@
 # Game Flow - Main Page
 
-(First Play Option -> Tutorial)
-
-(Distinguish first run gameflow and second/third/... run gameflow)
-
-(Ranking to show fighting power, hv a ranking page)w
-
 ### This is the game flow of front page of the app 45Days. 
 
 #### Main Page
@@ -25,7 +19,7 @@
       - **Equip item**
     - **Map Page**
     - **Online shopping Page** (Can only buy consumables e.g. Mecha repair kit in moderate price)
-    - **Leaderboard Page** (i.e. also the show boss information page)
+    - **Leaderboard Page** (i.e. also the show boss information page, shows power rankings of each mecha)
 
 3.1 Mecha Detail Page
 
