@@ -16,27 +16,22 @@
   - Option: **Proceed** -> Main flow section
 
 2. After user clicked Proceed button -> Enter Front page
-  (
   - Self Garage Pic, which also feature the mecha player own (On the left)
   - Date (Day 1 Day 2)
   - Money amount
   - Right Button Screen
-    - **Show Mecha Detail View**
+    - **Mecha Detail Page**
       - **Repair Mecha**
       - **Equip item**
-    - 
+    - **Map Page**
+    - **Online shopping Page** (Can only buy consumables e.g. Mecha repair kit in moderate price)
+    - **Leaderboard Page** (i.e. also the show boss information page)
 
+3.1 Mecha Detail Page
 
+3.2 In Map Page, user can select different places to spend their day in. Different places have different kind of events.
+(Can use the left view movable map right view scrollable places layout)
 
-  - Option: , **Show Boss Information View**, **Map View**
-  
-
-3. In Map View, user can select different places to spend their day in. Different places have different kind of events.
-
- 
-  - Home (家) 
-    - Rest
-    - 
   - Arcade (游戲機中心)
   - Old Street (舊街)
   - Hot Spring Motel (溫泉旅館)
